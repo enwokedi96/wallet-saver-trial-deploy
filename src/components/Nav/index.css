@@ -1,0 +1,50 @@
+strong{
+    color:antiquewhite;
+}
+
+.right-menu{
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+  }
+
+#bar{
+    background-color: rgb(87, 5, 5);
+}
+
+.menu-container {
+    position: relative;
+  }
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    width: 24px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-toggle__icon {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+  }
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    /* other styling */
+  }
+  

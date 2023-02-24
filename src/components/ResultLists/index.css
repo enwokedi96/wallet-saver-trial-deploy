@@ -1,0 +1,63 @@
+.page-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.page-subheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: bisque;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.shrink{
+    max-height: 100px;
+}
+
+.svg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* list items css */
+li{
+    font-weight: 500;
+    color: black;
+  }
+  
+  li:hover {
+      transform: scale(1.05);
+       /* transform-origin:10%; */
+       background-color: white;
+      z-index: 1;
+      background: burlywood;
+      cursor: pointer;
+    }
+  
+  li a{
+    text-decoration: none;
+    color: rgb(60, 54, 54);}
+    
+  li a:hover{
+    color: rgb(146, 11, 11);
+    text-decoration: underline;
+  }
+  
+  

@@ -1,0 +1,4 @@
+.modal-backdrop:not(#_) ~ .modal-backdrop,
+body:not(.modal-open) .modal-backdrop {
+  display: none;
+}

@@ -1,0 +1,29 @@
+.svg-aliexpress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-amazon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-aliexpressXL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(7.5);
+    padding-left: 15px;
+}
+
+.svg-amazonXL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(7.5);
+    padding-left: 15px;
+}

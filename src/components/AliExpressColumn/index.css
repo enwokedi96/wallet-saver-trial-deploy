@@ -1,0 +1,10 @@
+.badge{
+    color: black !important;
+    background-color: rgb(100, 148, 148);
+    font-size: 16px;
+    padding: 3px;
+}
+
+.property-heading{
+    color: rgb(51, 46, 39);
+}
